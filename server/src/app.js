@@ -54,7 +54,7 @@ bot.onText(/\/start/, (msg) => {
       inline_keyboard: [
         [{
           text: '🚀 Открыть приложение',
-          web_app: { url: process.env.WEB_APP_URL || 'http://localhost:3000' }
+          web_app: { url: process.env.WEB_APP_URL }
         }]
       ]
     }
